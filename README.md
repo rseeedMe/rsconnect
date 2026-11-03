@@ -26,6 +26,7 @@
 | Платформа | Ссылка |
 |---|---|
 | Android (APK) | [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-android-arm64.apk) |
+| Android TV (APK) | готовится |
 | Google Play | готовится |
 | Android TV | в разработке |
 | iOS / Apple TV | в разработке |
