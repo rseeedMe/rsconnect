@@ -15,20 +15,21 @@
 
 ### Компьютер
 
-| Платформа                                | Установщик | Портативная версия                                                                              |
-|------------------------------------------|---|-------------------------------------------------------------------------------------------------|
-| Windows (x64/ARM64)                           | [Setup](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-windows-x64-setup.exe) | [ZIP](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-windows-x64.zip) |
-| macOS (Apple Silicon и Intel, один файл) | [DMG](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-macos.dmg) | в разработке                                                                                    |
-| Linux (x64)                              | в разработке | в разработке                                                                                    |
+| Платформа | Установщик | Портативная версия |
+|---|---|---|
+| Windows (x64) | [Setup](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-windows-x64-setup.exe) | [ZIP](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-windows-x64.zip) |
+| macOS (Apple Silicon и Intel, один файл) | [DMG](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-macos.dmg) | [ZIP](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-macos.zip) |
+| Windows (ARM64) | тот же Setup: работает через встроенную эмуляцию x64 | тот же ZIP |
+| Linux (x64) | в разработке | в разработке |
 
 ### Телефоны и ТВ
 
 | Платформа | Ссылка |
 |---|---|
-| Android (APK) | [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-android-arm64.apk) |
-| Android TV (APK) | готовится |
+| Android (телефоны и планшеты, arm64) | [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-android-arm64.apk) |
+| Android (эмулятор, x86_64) | [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-android-x86_64.apk) |
 | Google Play | готовится |
-| Android TV | в разработке |
+| Android TV и приставки (arm64) | тот же [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-android-arm64.apk): управление пультом, подписка по коду с телефона или компьютера |
 | iOS / Apple TV | в разработке |
 
 > [!NOTE]
