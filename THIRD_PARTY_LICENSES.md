@@ -10,7 +10,7 @@ Ryse использует открытые компоненты. Ниже пер
 |---|---|---|---|---|
 | Xray-core | ядро протоколов VLESS, VMess, Trojan, Shadowsocks, REALITY, XHTTP, Hysteria | все | MPL‑2.0 | https://github.com/XTLS/Xray-core |
 | hev-socks5-tunnel | туннель TUN → SOCKS5 | Android | MIT | https://github.com/heiher/hev-socks5-tunnel |
-| tun2socks | туннель TUN → SOCKS5 | Windows, macOS | MIT | https://github.com/xjasonlyu/tun2socks |
+| tun2socks | туннель TUN → SOCKS5; собирается из исходников с одной правкой (адрес источника UDP-потока в запросе), скрипт `tool/build_tun2socks.sh` | Windows, macOS | MIT | https://github.com/xjasonlyu/tun2socks |
 | Wintun | драйвер виртуального сетевого адаптера | Windows | Prebuilt Binaries License | https://www.wintun.net |
 | v2ray-rules-dat | геобазы geoip.dat и geosite.dat для правил маршрутизации | все | GPL‑3.0 (данные) | https://github.com/Loyalsoldier/v2ray-rules-dat |
 | circle-flags | круглые флаги стран | все | MIT | https://github.com/HatScripts/circle-flags |
