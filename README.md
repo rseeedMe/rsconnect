@@ -1,4 +1,4 @@
-<h1 align="center">RS Connect</h1>
+<h1 align="center">Ryse</h1>
 
 <p align="center"><b>Кроссплатформенный VPN-клиент на базе <a href="https://github.com/XTLS/Xray-core">Xray-core</a></b></p>
 
@@ -17,8 +17,8 @@
 
 | Платформа | Установщик | Портативная версия |
 |---|---|---|
-| Windows (x64) | [Setup](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-windows-x64-setup.exe) | [ZIP](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-windows-x64.zip) |
-| macOS (Apple Silicon и Intel, один файл) | [DMG](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-macos.dmg) | [ZIP](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-macos.zip) |
+| Windows (x64) | [Setup](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-windows-x64-setup.exe) | [ZIP](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-windows-x64.zip) |
+| macOS (Apple Silicon и Intel, один файл) | [DMG](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-macos.dmg) | [ZIP](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-macos.zip) |
 | Windows (ARM64) | тот же Setup: работает через встроенную эмуляцию x64 | тот же ZIP |
 | Linux (x64) | в разработке | в разработке |
 
@@ -26,10 +26,10 @@
 
 | Платформа | Ссылка |
 |---|---|
-| Android (телефоны и планшеты, arm64) | [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-android-arm64.apk) |
-| Android (эмулятор, x86_64) | [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-android-x86_64.apk) |
+| Android (телефоны и планшеты, arm64) | [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-android-arm64.apk) |
+| Android (эмулятор, x86_64) | [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-android-x86_64.apk) |
 | Google Play | готовится |
-| Android TV и приставки (arm64) | тот же [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/RSConnect-android-arm64.apk): управление пультом, подписка по коду с телефона или компьютера |
+| Android TV и приставки (arm64) | тот же [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-android-arm64.apk): управление пультом, подписка по коду с телефона или компьютера |
 | iOS / Apple TV | в разработке |
 
 > [!NOTE]
@@ -48,19 +48,19 @@
 **Windows**
 
 1. Скачайте Setup и запустите, нажмите «Далее».
-2. Откройте RS Connect и вставьте ссылку подписки от вашего провайдера, или нажмите кнопку «Добавить в приложение» у провайдера.
+2. Откройте Ryse и вставьте ссылку подписки от вашего провайдера, или нажмите кнопку «Добавить в приложение» у провайдера.
 3. Нажмите «Подключить VPN». Сервер выберется автоматически, при желании выберите страну вручную.
 
 **macOS**
 
-1. Скачайте DMG, откройте его и перетащите RS Connect в папку «Программы».
+1. Скачайте DMG, откройте его и перетащите Ryse в папку «Программы».
 2. Запустите приложение из «Программ». Если macOS не даёт открыть, разрешите запуск в Системные настройки → Конфиденциальность и безопасность → «Всё равно открыть».
 3. Добавьте подписку и нажмите «Подключить VPN». Режим TUN один раз попросит пароль администратора.
 
 **Android**
 
 1. Скачайте APK прямо на телефоне и откройте его из уведомления о загрузке.
-2. Запустите RS Connect, добавьте подписку (плюс справа вверху → вставить ссылку).
+2. Запустите Ryse, добавьте подписку (плюс справа вверху → вставить ссылку).
 3. Нажмите «Подключить VPN» и подтвердите запрос системы. Пока VPN работает, в шторке висит уведомление с кнопкой «Отключить».
 
 Подробнее: [документация](https://rs-connect-1.gitbook.io/rs-connect-docs/).
@@ -92,13 +92,13 @@
 
 ## Конфиденциальность
 
-RS Connect не собирает трафик, ключи и адреса подписок: всё хранится только на вашем устройстве.
+Ryse не собирает трафик, ключи и адреса подписок: всё хранится только на вашем устройстве.
 Раз в сутки приложение отправляет анонимный сигнал: домен подписки, хеш идентификатора устройства,
 система и версия приложения. Его видит только провайдер, подтвердивший свой домен. Отключается в Настройки → Подписки.
 
 ## Правовая информация
 
-RS Connect не предоставляет VPN-серверы и не продаёт подписки: приложение работает с подпиской вашего провайдера.
+Ryse не предоставляет VPN-серверы и не продаёт подписки: приложение работает с подпиской вашего провайдера.
 Используя приложение, вы соблюдаете законы своей страны.
 
 ## Лицензии
