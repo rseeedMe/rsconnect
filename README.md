@@ -29,7 +29,7 @@
 | Android (телефоны и планшеты, arm64) | [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-android-arm64.apk) |
 | Android (эмулятор, x86_64) | [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-android-x86_64.apk) |
 | Google Play | готовится |
-| Android TV и приставки (arm64) | тот же [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-android-arm64.apk): управление пультом, подписка по коду с телефона или компьютера |
+| Android TV и приставки (arm64) | тот же [APK](https://github.com/rseeedMe/rsconnect/releases/latest/download/Ryse-android-arm64.apk): управление пультом, подписка по коду от провайдера |
 | iOS / Apple TV | в разработке |
 
 > [!NOTE]
@@ -75,7 +75,7 @@
 
 | | Windows | macOS | Android | iOS |
 |---|:---:|:---:|:---:|:---:|
-| **Подписки**: добавление по ссылке или через `rsconnect://`, автообновление по интервалу провайдера | ✅ | ✅ | ✅ | 🔧 |
+| **Подписки**: добавление по ссылке, коду или через `ryse://`, автообновление по интервалу провайдера | ✅ | ✅ | ✅ | 🔧 |
 | **Автоматический выбор сервера**: пинг всех локаций, карта мира, ручной выбор страны | ✅ | ✅ | ✅ | 🔧 |
 | **Режимы работы**: системный прокси или TUN для всего трафика | ✅ | ✅ | системный VPN | 🔧 |
 | **Раздельный доступ**: отдельные приложения через VPN или напрямую | ✅ | ✅ | ✅ | 🔧 |
