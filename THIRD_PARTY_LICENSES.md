@@ -14,6 +14,8 @@ Ryse использует открытые компоненты. Ниже пер
 | Wintun | драйвер виртуального сетевого адаптера | Windows | Prebuilt Binaries License | https://www.wintun.net |
 | v2ray-rules-dat | геобазы geoip.dat и geosite.dat для правил маршрутизации | все | GPL‑3.0 (данные) | https://github.com/Loyalsoldier/v2ray-rules-dat |
 | circle-flags | круглые флаги стран | все | MIT | https://github.com/HatScripts/circle-flags |
+| Inter | шрифт интерфейса (урезан до латиницы и кириллицы) | все | OFL‑1.1 | https://github.com/rsms/inter |
+| JetBrains Mono | моноширинный шрифт журнала и пинга (урезан так же) | все | OFL‑1.1 | https://github.com/JetBrains/JetBrainsMono |
 
 Ядро, туннели и драйвер поставляются в виде неизменённых сборок из официальных релизов и работают
 как отдельные процессы или системные компоненты. Их исходный код мы не меняем; версии видны в
